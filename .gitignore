@@ -1,0 +1,8 @@
+﻿# Ignorar carpetas temporales
+.vs/
+bin/
+obj/
+
+# Ignorar archivos locales
+*.db
+*.log
