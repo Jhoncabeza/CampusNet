@@ -10,14 +10,14 @@ namespace CampusNet.Views
             foreach (var kv in lista)
             {
                 string conexiones = kv.Value.Count > 0 ? string.Join(", ", kv.Value) : "Sin conexiones";
-                Console.WriteLine($"{kv.Key} → {conexiones}");
+                Console.WriteLine($"{kv.Key} -> {conexiones}");
             }
         }
 
         public void MostrarRecorrido(string tipo, List<string> recorrido)
         {
             Console.WriteLine($"\n=== RECORRIDO {tipo} ===");
-            Console.WriteLine(string.Join(" → ", recorrido));
+            Console.WriteLine(string.Join(" -> ", recorrido));
             Console.WriteLine($"Total alcanzados: {recorrido.Count}");
         }
 

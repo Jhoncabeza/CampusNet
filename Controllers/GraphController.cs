@@ -67,7 +67,7 @@ namespace CampusNet.Controllers
             vista.MostrarUsuarios("Usuarios más influyentes", grafo.GetUsuariosInfluyentes());
             vista.MostrarUsuarios("Usuarios más activos", grafo.GetUsuariosMasActivos());
 
-            Console.WriteLine("\n¿Puede llegar Ana → Marta? " +
+            Console.WriteLine("\n¿Puede llegar Ana -> Marta? " +
                 (grafo.PuedeLlegar("1", "9") ? "Sí" : "No"));
 
             // Ejemplo CRUD
